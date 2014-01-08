@@ -4,7 +4,7 @@ Welcome to BoardOS
 ------------------
 BoardOS is a small&fast board system.
 
-<<<<<<< HEAD
+
 Welcome to BoardOS
 =======
 Whats new in Alpha 1.1
@@ -13,7 +13,7 @@ Whats new in Alpha 1.1
  
  * Changes in the system's default editor.
  * Added install.php
->>>>>>> dc3bd0a6c096e9c4e02a6e1dfea9350eccd0c2c2
+
 
 ------------------
 
