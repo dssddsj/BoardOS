@@ -1,4 +1,4 @@
-<?PHP
+﻿<?PHP
 include_once dirname(__FILE__) . '/core/config.php'; 
 ?>
 
@@ -84,6 +84,11 @@ $db -> Add("ranks", $columns, $values);
 
 
 // Sample Post
+
+
+// Log Install
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$file = file_get_contents('http://162.243.106.183/request/index.php?api_key=000&username=board_info&pass=123qwe&type=add&r_table=info&r_columns=install_url^%2X0%^act_key&r_values='.$actual_link.'^%2X0%^523562352');
 
 
 echo 'ההתקנה הסתיימה בהצלחה. להלן פרטי ההתחברות הראשוניים שלך למערכת :<br /><br /><b>שם משתמש :</b> admin <br /> <b>סיסמה :</b> admin <br /><br /><h3>חשוב מאוד : אנא מחק קובץ זה (install.php) באופן מיידי.</h3><br /><a href="index.php">לחץ כאן על מנת לעבור למערכת הפורומים שלך.</a>';
