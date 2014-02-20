@@ -3,10 +3,10 @@
 // ------------Database Config------------
 
 global $host, $user, $pass, $db_name;
-$host="localhost"; // Host name
-$user="root"; // Mysql username
-$pass=""; // Mysql password
-$db_name="my_db"; // Database name
+$host="HardCore"; // Host name
+$user="NirZoco"; // Mysql username
+$pass="123456"; // Mysql password
+$db_name="HardCore"; // Database name
 
 
 
